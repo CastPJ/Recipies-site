@@ -1,0 +1,22 @@
+.navbar-custom {
+  background-color: aquamarine;
+}
+
+.btn-row {
+}
+
+.btn-custom-top {
+  background-color: azure;
+  border: 1px solid black;
+  width: 7rem;
+  height: 4rem;
+}
+
+.btn-custom-bot {
+  background-color: azure;
+  border: 1px solid black;
+  width: 5.8rem;
+  height: 4rem;
+  margin-right: -1.25rem;
+  margin-top: 0.8rem;
+}
