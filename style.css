@@ -1,8 +1,8 @@
+/* NAVBAR */
+
 .navbar-custom {
   background-color: aquamarine;
-}
-
-.btn-row {
+  height: 11rem;
 }
 
 .btn-custom-top {
@@ -19,4 +19,41 @@
   height: 4rem;
   margin-right: -1.25rem;
   margin-top: 0.8rem;
+}
+
+/* PLAN MAIN PAGE */
+
+.plan-container {
+  background-color: bisque;
+  border: 1px solid black;
+  /* height: 10rem; */
+  border-radius: 1rem;
+  margin: 1rem;
+  display: grid;
+}
+
+.date {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
+.plan-container-element {
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.plan-container-element-border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.meal-type {
+  padding: 0;
+}
+
+.meal-name {
+  padding: 0;
+  margin-left: 1.7rem;
 }
