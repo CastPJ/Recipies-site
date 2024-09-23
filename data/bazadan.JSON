@@ -1,0 +1,14 @@
+{
+  "danie1": {
+    "name": "Ziemniaczki (piekarnik)",
+    "img": "data/images/danie1.jpg"
+  },
+  "danie2": {
+    "name": "Ziemniaczki (gotowane)",
+    "img": "data/images/danie2.jpg"
+  },
+  "danie3": {
+    "name": "Kasza z maślanką",
+    "img": "data/images/danie3.jpg"
+  }
+}

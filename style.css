@@ -57,3 +57,36 @@
   padding: 0;
   margin-left: 1.7rem;
 }
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.card-self {
+  margin: auto;
+  height: 290px;
+}
+
+.btn-self {
+  height: 1.75rem;
+  padding-top: calc(-1rem);
+  margin-left: 4.5rem;
+}
+
+.card-title {
+  max-height: 4.5rem;
+  overflow: hidden;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  width: 178px;
+  height: 150px;
+}
