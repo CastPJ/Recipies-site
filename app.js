@@ -4,6 +4,7 @@ function addRecipeCard(recipe) {
   const card = document.createElement("div");
   card.className = "card card-self";
   card.style.width = "180px";
+  card.addEventListener("click", bodyEvent);
 
   const img = document.createElement("img");
   img.className = "card-img-top";
@@ -21,6 +22,7 @@ function addRecipeCard(recipe) {
   button.href = "#";
   button.className = "btn btn-secondary btn-self";
   button.textContent = "Dodaj";
+  button.addEventListener("click", buttonEvent);
 
   cardBody.appendChild(cardTitle);
   cardBody.appendChild(button);
@@ -39,6 +41,19 @@ function fetchData() {
       });
     })
     .catch((error) => console.error("Błąd podczas pobierania danych:", error));
+}
+
+function buttonEvent(e) {
+  e.preventDefault();
+  console.log("DODAWANIE");
+}
+
+function bodyEvent(e) {
+  if (!e.target.classList.contains("btn")) {
+    console.log("PRZEPIS");
+  } else {
+    return;
+  }
 }
 
 document.addEventListener("DOMContentLoaded", fetchData);
