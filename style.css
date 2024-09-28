@@ -90,3 +90,16 @@
   width: 178px;
   height: 150px;
 }
+
+/* Recipies page */
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rec-img {
+  width: 340px;
+  height: 280px;
+  border: 1px solid black;
+}
